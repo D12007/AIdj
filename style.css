@@ -1,0 +1,67 @@
+body{
+    background-size: cover;
+}
+button{
+    position: relative;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+    width:100px;
+}
+button::before,
+button::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+.H3{
+    font-size:30px;
+    width:100%;
+    font-family: 'Bruno Ace SC', cursive;
+    margin:0px;
+    font-weight:bold;
+    color: white;
+
+}
+.NOTE{
+    font-size:18px;
+    font-family: 'Bruno Ace SC', cursive;
+    white-space:pre-line;
+    color:red;
+}
+.div_speed{
+    float:left;
+}
+.img_1{
+    width:150px;
+    border-radius:100px;   
+}
+#speed{
+    font-family:'Bruno Ace SC', cursive;
+    margin:15px;
+
+}
+
+.div_volume{
+    float:right;
+}
+#volume{
+    font-family:'Bruno Ace SC', cursive;
+    margin:15px;
+}
+.start{
+    font-size:15px;
+    font-family:'Bruno Ace SC', cursive;
+    font-weight: bolder;
+    background-color:white;
+    color:black;
+}
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:100px;
+}
+.btn-1:hover {
+    background:#8be4a6;
+    box-shadow: 0 0 5px #8be4a6, 0 0 25px #8be4a6, 0 0 50px #8be4a6, 0 0 200px #8be4a6;
+    }
