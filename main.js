@@ -67,8 +67,11 @@
          left_wrist_x = results[0].pose.leftWrist.x;
          left_wrist_y = results[0].pose.leftWrist.y;
          console.log("left_wrist_x=" + left_wrist_x + " and left_wrist_y=" + left_wrist_y);
+       RightWristScore = results[0].pose.keypoints[10].score;
          right_wrist_x = results[0].pose.rightWrist.x;
          right_wrist_y = results[0].pose.rightWrist.y;
          console.log("right_wrist_x=" + right_wrist_x + " and right_wrist_y=" + right_wrist_y);
+      console.log(RightWristScore);
+       console.log(leftWristScore);
      }
  }
