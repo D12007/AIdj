@@ -30,7 +30,7 @@
          volume = NO_decimal / 400;
          document.getElementById("volume").innerHTML = "VOLUME =" + volume;
      }
-     if (RightWristScore > 0.2) {
+     if (RightWristScore > 0) {
          fill("#dd00ff");
          stroke("#dd00ff");
          circle(right_wrist_x, right_wrist_y, 20);
