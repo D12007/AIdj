@@ -53,7 +53,7 @@
  function play() {
      song.play();
      song.setVolume(volume);
-     song.rate(1);
+ 
  }
 
  function modelLoaded() {
